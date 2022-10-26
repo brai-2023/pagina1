@@ -7,7 +7,8 @@
     <link href="/fontawesome/fontawesome-free-6.2.0-web/css/all.css" rel="stylesheet">
 </head>
 <body>
-   <video autoplay loop class="video-container">
+    <!-- VIDEO DE FONDO -->
+    <video autoplay loop class="video-container">
          <source src="./img/Humano - 747.mp4" autoplay loop type="video/mp4">
      </video> 
 <!-- HEADER Y MENU DE NAV-->
@@ -15,20 +16,24 @@
         <div class="logo">
             <a href="#">VR</a>
         </div>
-     
-        <nav>
-           <a href="#">Inicio</a>
-           <a href="#">Sobre nosotros</a>
-           <a href="#">Contacto</a>
+        <nav class="menu">
+            <label for="check" class="checkbtn">
+                 <i class="fa-solid fa-bars"></i>
+            </label>
+            <input type="checkbox" id="check">
+             <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">sobre nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
         </nav>
      </header>
-     
      <!-- SECCION 1 -->
         <div class="hero">
             <div class="conteiner-text">
-            <h1>La tecnologia en tus manos</h1>
-            <p>Disfruta de la mejor tecnologia, acercate a la realidad virtual, dispositivos actualizados, computadoras que se acercan al fututo, TU FUTURO! 
-            Hace realidad tus sue;os, conocenos mas...
+            <h1> <b>La tecnologia en tus manos</b></h1>
+            <p>Disfruta de la mejor tecnologia, acercate a la realidad virtual, gafas que se acercan al fututo, TU FUTURO! 
+            Hace realidad tus sueños, conocenos mas...
             </p>
          <div class="btn">
             <button><a href="#">Conocenos</a></button>
@@ -37,13 +42,13 @@
      </div>
  </div>
 <!-- SECCION 2 -->
-      <section class="container2">
-       <article class="card1">
-            <img src="/img/imagencard1.jpg" alt="imagen1">
-            <p>La Nueva tecnologian tus manos,Consiste en unas gafas de realidad virtual con contenido inmersivo que permite al usuario disfrutar de la visualización de distintos entornos y actividades, logrando una percepción realista de lo visualizado, como si estuviese realmente presente.
-             </p>
-            <a href="#">Learn more</a>
-       </article>
+    <section class="container2">
+         <article class="card1">
+                <img src="/img/imagencard1.jpg" alt="imagen1">
+                <p>La Nueva tecnologia esta en tus manos,Consiste en unas gafas de realidad virtual con contenido inmersivo que permite al usuario disfrutar de la visualización de distintos entornos y actividades, logrando una percepción realista de lo visualizado, como si estuviese realmente presente.
+                </p>
+                <a href="#">Learn more</a>
+            </article>
         <article class="card2">
             <img src="/img/imagencard2.jpg" alt="imagen2">
             <p>Un estudio de la Universidad de Warwick mostró que los estudiantes podían recordar mejor los materiales de estudio aprendidos a través de la realidad virtual.</p>
@@ -51,26 +56,24 @@
         </article>
         <article class="card3">
             <img src="/img/imagen3.jpg" alt="imagen2">
-            <p>Un estudio de la Universidad de Warwick mostró que los estudiantes podían recordar mejor los materiales de estudio aprendidos a través de la realidad virtual.</p>
+            <p>Vivi la experiencia de la realidad virtual en un solo dispositivo..</p>
             <a href="#">Learn more</a>
         </article>
+     </section>
+    <footer>
+        <div class="redes">
+             <a href="#" class="img">
+                 <img src="img/facebook-original.svg" alt="facebook">
+             </a>
+                <a href="#" class="img">
+                    <img src="img/instagram-original.svg" alt="instagram">
+                </a>
+                <a href="#" class="img">
+                    <img src="img/twitter-original.svg" alt="twiter">
+                </a>
 
-      </section>
-  
-   <footer>
-    <div class="redes">
-        <a href="#" class="img">
-            <img src="img/facebook-original.svg" alt="facebook">
-        </a>
-        <a href="#" class="img">
-            <img src="img/instagram-original.svg" alt="instagram">
-        </a>
-        <a href="#" class="img">
-            <img src="img/twitter-original.svg" alt="twiter">
-        </a>
-        <p>&copy;VirtualRealidad2022</p>
-    </div>
-        
-   </footer>
+                <p>&copy;VirtualRealidad2022</p>
+        </div>
+ </footer>
 </body>
 </html>
